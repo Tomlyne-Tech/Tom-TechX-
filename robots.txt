@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /Assets/private/
+Sitemap: https://tom-tech-solution-ky.vercel.app/sitemap.xml
+
+# Allow Google to crawl all important content
+User-agent: Googlebot
+Allow: /
+Allow: /Assets/Images/
+Allow: /*.css
+Allow: /*.js
+
+# Block AI crawlers if desired (optional)
+User-agent: GPTBot
+Disallow: /
