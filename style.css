@@ -91,7 +91,7 @@ body {
 
 .logo {
     width: 180px;
-    height: auto;
+    height:30px;
     transition: var(--transition);
 }
 
