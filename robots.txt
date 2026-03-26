@@ -12,4 +12,4 @@ Allow: /*.js
 
 # Block AI crawlers if desired (optional)
 User-agent: GPTBot
-Disallow: /
+Allow: /
